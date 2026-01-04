@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		61A8C3892F0AD2E7000C1EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61A8C3702F0AD2E5000C1EAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61A8C3772F0AD2E5000C1EAA;
+			remoteInfo = "Revision Calendar";
+		};
+		61A8C3932F0AD2E7000C1EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61A8C3702F0AD2E5000C1EAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61A8C3772F0AD2E5000C1EAA;
+			remoteInfo = "Revision Calendar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61A8C3782F0AD2E5000C1EAA /* Revision Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Revision Calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A8C3882F0AD2E7000C1EAA /* Revision CalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Revision CalendarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A8C3922F0AD2E7000C1EAA /* Revision CalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Revision CalendarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		61A8C37A2F0AD2E5000C1EAA /* Revision Calendar */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Revision Calendar";
+			sourceTree = "<group>";
+		};
+		61A8C38B2F0AD2E7000C1EAA /* Revision CalendarTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Revision CalendarTests";
+			sourceTree = "<group>";
+		};
+		61A8C3952F0AD2E7000C1EAA /* Revision CalendarUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Revision CalendarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61A8C3752F0AD2E5000C1EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A8C3852F0AD2E7000C1EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A8C38F2F0AD2E7000C1EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61A8C36F2F0AD2E5000C1EAA = {
+			isa = PBXGroup;
+			children = (
+				61A8C37A2F0AD2E5000C1EAA /* Revision Calendar */,
+				61A8C38B2F0AD2E7000C1EAA /* Revision CalendarTests */,
+				61A8C3952F0AD2E7000C1EAA /* Revision CalendarUITests */,
+				61A8C3792F0AD2E5000C1EAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61A8C3792F0AD2E5000C1EAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61A8C3782F0AD2E5000C1EAA /* Revision Calendar.app */,
+				61A8C3882F0AD2E7000C1EAA /* Revision CalendarTests.xctest */,
+				61A8C3922F0AD2E7000C1EAA /* Revision CalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61A8C3772F0AD2E5000C1EAA /* Revision Calendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61A8C39C2F0AD2E7000C1EAA /* Build configuration list for PBXNativeTarget "Revision Calendar" */;
+			buildPhases = (
+				61A8C3742F0AD2E5000C1EAA /* Sources */,
+				61A8C3752F0AD2E5000C1EAA /* Frameworks */,
+				61A8C3762F0AD2E5000C1EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				61A8C37A2F0AD2E5000C1EAA /* Revision Calendar */,
+			);
+			name = "Revision Calendar";
+			packageProductDependencies = (
+			);
+			productName = "Revision Calendar";
+			productReference = 61A8C3782F0AD2E5000C1EAA /* Revision Calendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61A8C3872F0AD2E7000C1EAA /* Revision CalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61A8C39F2F0AD2E7000C1EAA /* Build configuration list for PBXNativeTarget "Revision CalendarTests" */;
+			buildPhases = (
+				61A8C3842F0AD2E7000C1EAA /* Sources */,
+				61A8C3852F0AD2E7000C1EAA /* Frameworks */,
+				61A8C3862F0AD2E7000C1EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61A8C38A2F0AD2E7000C1EAA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				61A8C38B2F0AD2E7000C1EAA /* Revision CalendarTests */,
+			);
+			name = "Revision CalendarTests";
+			packageProductDependencies = (
+			);
+			productName = "Revision CalendarTests";
+			productReference = 61A8C3882F0AD2E7000C1EAA /* Revision CalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61A8C3912F0AD2E7000C1EAA /* Revision CalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61A8C3A22F0AD2E7000C1EAA /* Build configuration list for PBXNativeTarget "Revision CalendarUITests" */;
+			buildPhases = (
+				61A8C38E2F0AD2E7000C1EAA /* Sources */,
+				61A8C38F2F0AD2E7000C1EAA /* Frameworks */,
+				61A8C3902F0AD2E7000C1EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61A8C3942F0AD2E7000C1EAA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				61A8C3952F0AD2E7000C1EAA /* Revision CalendarUITests */,
+			);
+			name = "Revision CalendarUITests";
+			packageProductDependencies = (
+			);
+			productName = "Revision CalendarUITests";
+			productReference = 61A8C3922F0AD2E7000C1EAA /* Revision CalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61A8C3702F0AD2E5000C1EAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					61A8C3772F0AD2E5000C1EAA = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					61A8C3872F0AD2E7000C1EAA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 61A8C3772F0AD2E5000C1EAA;
+					};
+					61A8C3912F0AD2E7000C1EAA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 61A8C3772F0AD2E5000C1EAA;
+					};
+				};
+			};
+			buildConfigurationList = 61A8C3732F0AD2E5000C1EAA /* Build configuration list for PBXProject "Revision Calendar" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61A8C36F2F0AD2E5000C1EAA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 61A8C3792F0AD2E5000C1EAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61A8C3772F0AD2E5000C1EAA /* Revision Calendar */,
+				61A8C3872F0AD2E7000C1EAA /* Revision CalendarTests */,
+				61A8C3912F0AD2E7000C1EAA /* Revision CalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61A8C3762F0AD2E5000C1EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A8C3862F0AD2E7000C1EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A8C3902F0AD2E7000C1EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61A8C3742F0AD2E5000C1EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A8C3842F0AD2E7000C1EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A8C38E2F0AD2E7000C1EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61A8C38A2F0AD2E7000C1EAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61A8C3772F0AD2E5000C1EAA /* Revision Calendar */;
+			targetProxy = 61A8C3892F0AD2E7000C1EAA /* PBXContainerItemProxy */;
+		};
+		61A8C3942F0AD2E7000C1EAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61A8C3772F0AD2E5000C1EAA /* Revision Calendar */;
+			targetProxy = 61A8C3932F0AD2E7000C1EAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		61A8C39A2F0AD2E7000C1EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61A8C39B2F0AD2E7000C1EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61A8C39D2F0AD2E7000C1EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Revision Calendar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tadeasjuricek.Revision-Calendar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61A8C39E2F0AD2E7000C1EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Revision Calendar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tadeasjuricek.Revision-Calendar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61A8C3A02F0AD2E7000C1EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tadeasjuricek.Revision-CalendarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Revision Calendar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Revision Calendar";
+			};
+			name = Debug;
+		};
+		61A8C3A12F0AD2E7000C1EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tadeasjuricek.Revision-CalendarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Revision Calendar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Revision Calendar";
+			};
+			name = Release;
+		};
+		61A8C3A32F0AD2E7000C1EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tadeasjuricek.Revision-CalendarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Revision Calendar";
+			};
+			name = Debug;
+		};
+		61A8C3A42F0AD2E7000C1EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tadeasjuricek.Revision-CalendarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Revision Calendar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61A8C3732F0AD2E5000C1EAA /* Build configuration list for PBXProject "Revision Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A8C39A2F0AD2E7000C1EAA /* Debug */,
+				61A8C39B2F0AD2E7000C1EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61A8C39C2F0AD2E7000C1EAA /* Build configuration list for PBXNativeTarget "Revision Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A8C39D2F0AD2E7000C1EAA /* Debug */,
+				61A8C39E2F0AD2E7000C1EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61A8C39F2F0AD2E7000C1EAA /* Build configuration list for PBXNativeTarget "Revision CalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A8C3A02F0AD2E7000C1EAA /* Debug */,
+				61A8C3A12F0AD2E7000C1EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61A8C3A22F0AD2E7000C1EAA /* Build configuration list for PBXNativeTarget "Revision CalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A8C3A32F0AD2E7000C1EAA /* Debug */,
+				61A8C3A42F0AD2E7000C1EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61A8C3702F0AD2E5000C1EAA /* Project object */;
+}

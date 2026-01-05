@@ -1,24 +1,12 @@
-//
-//  ContentView.swift
-//  Revision Calendar
-//
-//  Created by Tadeáš Juříček on 04.01.2026.
-//
-
 import SwiftUI
+import CoreData
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        CalendarView()
     }
 }
 
-#Preview {
-    ContentView()
-}
+
+
+

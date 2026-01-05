@@ -50,11 +50,6 @@ Default follow-ups are:
 
 ---
 
-## 📸 Screenshots (optional)
-
-> You can add screenshots later by placing images in `/Screenshots` and linking them here.
-
----
 
 ## 🚀 Running the App
 

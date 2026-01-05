@@ -27,16 +27,13 @@ struct DayCell: View {
         let isPad = UIDevice.current.userInterfaceIdiom == .pad
         
         VStack(spacing: 4) {
-            // Day number
             Text(dayNumber(date))
                 .font(.caption)
                 .frame(maxWidth: .infinity, alignment: .leading)
             
             VStack(spacing: 4) {
-                // Reminders
                 remindersPreview
                 
-                // Drawing preview only on iPad
                 if isPad {
                     Spacer(minLength: 2)
                     GeometryReader { geo in
@@ -103,7 +100,6 @@ struct DayCell: View {
 
             GeometryReader { geo in
                 
-                // Use the drawing's real bounds
                 let drawingBounds = drawing.bounds
                             
                             

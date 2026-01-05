@@ -45,7 +45,6 @@ struct CalendarView: View {
     
     var body: some View {
         ZStack {
-            // solid background under everything
             Color(UIColor.systemBackground)
                 .ignoresSafeArea()
 
@@ -64,16 +63,15 @@ struct CalendarView: View {
                                             let horizontal = value.translation.width
                                             let vertical = value.translation.height
 
-                                            // Only react to clearly horizontal swipes
                                             guard abs(horizontal) > abs(vertical),
                                                   abs(horizontal) > 50
                                             else { return }
 
                                             withAnimation {
                                                 if horizontal < 0 {
-                                                    currentMonthOffset += 1   // swipe left → next month
+                                                    currentMonthOffset += 1
                                                 } else {
-                                                    currentMonthOffset -= 1   // swipe right → previous month
+                                                    currentMonthOffset -= 1
                                                 }
                                             }
                                         }
@@ -88,16 +86,15 @@ struct CalendarView: View {
                                                 let horizontal = value.translation.width
                                                 let vertical = value.translation.height
 
-                                                // Only react to clearly horizontal swipes
                                                 guard abs(horizontal) > abs(vertical),
                                                       abs(horizontal) > 50
                                                 else { return }
 
                                                 withAnimation {
                                                     if horizontal < 0 {
-                                                        currentMonthOffset += 1   // swipe left → next month
+                                                        currentMonthOffset += 1
                                                     } else {
-                                                        currentMonthOffset -= 1   // swipe right → previous month
+                                                        currentMonthOffset -= 1
                                                     }
                                                 }
                                             }
@@ -127,14 +124,12 @@ struct CalendarView: View {
                 Text("Reminders for \(formatted(date))")
                     .font(.headline)
 
-                // show list of reminders for that day
                 List {
                     ForEach(remindersFor(date: date)) { reminder in
                         Text(reminder.text ?? "")
                     }
                 }
 
-                // add new reminder row
                 AddReminderRow(date: date)
 
                 Button("Close") {
@@ -155,7 +150,6 @@ struct CalendarView: View {
 
             VStack(spacing: 16) {
 
-                // EXISTING REMINDERS (if any)
                 if !todaysReminders.isEmpty {
                     VStack(alignment: .leading, spacing: 8) {
                         Text("Existing reminders")
@@ -170,7 +164,6 @@ struct CalendarView: View {
 
                                     Spacer()
 
-                                    // delete menu per reminder
                                     Menu {
                                         Button("Delete only this reminder", role: .destructive) {
                                             deleteSingle(reminder)
@@ -191,7 +184,6 @@ struct CalendarView: View {
                     .padding(.horizontal)
                 }
 
-                // BELOW THIS, keep your "Create revision reminders" UI
                 Text("Create revision reminders")
                     .font(.headline)
 
